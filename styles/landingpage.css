@@ -1,0 +1,73 @@
+.image-link{
+    width: 400px;
+    border-radius: 10px;
+}
+body{
+    background-image: url("/Images/greenbackground.png");
+    font-family: "Montserrat", sans-serif;
+}
+
+.main {
+    width: 100%;
+    min-height: 500px;
+  }
+  
+  .container {
+    width: 80%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    /*padding: 2em 0;*/
+  }
+  
+  .about,
+  .getInvolved,
+  .contact,
+  .media {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 5em;
+      margin-top: 5em;
+      gap: 2em;
+  
+  }
+/*   
+  #about-text{
+    padding:10px;
+  } */
+  .small,
+  .large {
+       align-items: center;
+       border-radius: 10px;
+      }
+  
+  .small {
+    width: 60%;
+    padding: 1em 2em;
+  }
+  
+  .large {
+    width: 40%;
+    justify-content: center;
+    /*background-color: rgba(255,255,255, 0.7);*/
+    padding: 1em 1em; 
+    
+  }
+  
+  .left {
+    width: 100%;
+    text-align: left;
+    
+  }
+  .sectiontitle{
+   /*  display:inline-block; */
+    text-align: center;
+  }
+  
+  
+  .right {
+    width: 100%;
+    text-align: right;
+  }
+  

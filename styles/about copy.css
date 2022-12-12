@@ -1,0 +1,112 @@
+
+.main {
+    width: 100%;
+    min-height: 50
+  }
+  .container {
+    width: 80%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 2em 0;
+    
+  }
+  .mission,
+  .vision,
+  .founderr {
+    min-height: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    gap: 2em;
+    font-family: "Montserrat", sans-serif;
+    
+  }
+  
+  .mission-title{
+    background-image: url("/Images/pic.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+  }
+  
+  .mission-content , .vision-content , .founderr-content{
+    position: relative;
+  }
+  
+  .mission a , .founderr a{
+    position: absolute;
+    bottom: 0;
+    right: 0; 
+  }
+  
+  .vision a {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  
+  
+  a{
+    cursor: pointer;
+  }
+  
+  #text-one , #text-two , #text-three{
+    margin-bottom: 2em;
+    background-color: rgba(255,255,255,0.7);
+    padding: 20px 10px;
+    border-radius: 10px;
+  }
+  
+  .vision-title{
+    background-image: url("/Images/mentorshipimg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .founderr-title{
+    background-image: url(/Images/profile-pic\ \(2\).png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;}
+    
+    
+  
+  
+  
+  img{
+    width:400px;
+    
+  }
+  h2{
+    display: block;
+  }
+  .small,
+  .large {
+    display: flex;
+    align-items: center;
+    padding: 3em 4em;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 25px;
+   
+  }
+  
+  .large {
+    width: 50%;
+    justify-content: center;
+    font-weight:bolder;
+    
+  }
+  
+  .small {
+    width: 50%;
+  }
+  
+  .right {
+    width: 100%;
+    text-align: right;
+  }

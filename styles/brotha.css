@@ -1,0 +1,74 @@
+
+
+/**************** Main *******************/
+body{
+  background-image: url("/Images/greenbackground.png");
+}
+.main {
+  width: 100%;
+  min-height: 500px;
+}
+
+.container {
+  width: 80%;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+ /*  padding: 2em 0; */
+}
+
+img{
+  border-radius:10px;
+}
+
+
+.mybrotha,
+.barbershop,
+.letsrap {
+  
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4em;
+  gap: 2em;
+}
+
+.small,
+.large {
+  align-items: center;
+  border-radius: 25px;
+  
+ }
+
+.small {
+  width: 60%;
+}
+
+.small img{
+  width: 500px;
+  height: auto;
+}
+
+.large {
+  width: 40%;
+  justify-content: center;
+  padding: 1em 1em; 
+  background-color: rgba(255, 255, 255,0.7);
+  
+}
+
+.left {
+  width: 100%;
+  text-align: left;
+}
+
+.right {
+  width: 100%;
+  text-align: right;
+}
+
+.sectiontitle{
+  text-align: center;
+}
+
+
